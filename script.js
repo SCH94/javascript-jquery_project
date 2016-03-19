@@ -18,8 +18,13 @@ $('.sqr').hover(function(){
 		case 1:
 	$(this).addClass('act');
 	break;
+	case 2:
+	$(this).addClass('act2');
+	break;
 	}
 	});
-}
+}else{
+		alert('srry');
+	}
 
 };
