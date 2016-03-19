@@ -20,10 +20,10 @@ button {
   border: 1px solid black;
 }
 
-.square-change {
+.square_change {
   background-color: black;
 }
 
-.new-row {
+.new_row {
   clear: both;
 }
