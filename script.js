@@ -3,8 +3,8 @@ var start = function(option){
 
 	var input = prompt('Type square 1 and 100');
 
-	if (input >= 1 && input <= 100){	// Check for non-ridiculous input
-		var sqr_size = $('#cont').width()/input - 2;	// The -2 accounts for border size
+	if (input >= 1 && input <= 100){	// Check validity of input
+		var sqr_size = $('#cont').width()/input - 2;	
 
 		for(var i = 1; i <= input; i++){
 			for(var j = 1; j <= input; j++){
