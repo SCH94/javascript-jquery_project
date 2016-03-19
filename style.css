@@ -18,6 +18,7 @@ button {
 	margin:auto;
 	  }
 .sqr{
+	float: left;
   background-color: black;
   border:1px solid white;
   
