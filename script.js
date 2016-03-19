@@ -1,7 +1,7 @@
-var makeGrid = function(){
+var squareGrid = function(){
     $('#gridContainer').html("");
 
-    var input = prompt("Enter a number between 1 and 100 for the dimensions of your grid");
+    var input = prompt("Enter a number between 1 and 100.");
 
       var squareSize = $('#gridContainer').width()/input - 2;
 
@@ -14,7 +14,7 @@ var makeGrid = function(){
       $('.square').css('height',squareSize);
 
       $('.square').mouseenter(function(){
-            $(this).addClass('square-change');
+            $(this).addClass('square_change');
 
       });
 }
