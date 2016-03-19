@@ -3,32 +3,32 @@ header{
   text-align:center;
   font-style:italic;
 }
-#btn{
-	margin: auto;
-	width: 960px;
-	text-align: center;
+#Container {
+  margin: auto;
+  text-align: center;
 }
+
 button {
-	width: 150px;
-	height: 30px;
+  width: 150px;
+  height: 30px;
 }
-#cont{
-    overflow: auto;
-	width:960px;
-	margin:auto;
-	  }
-.sqr{
-	float: left;
+
+#Container {
+  overflow: auto;
+  width: 960px;
+  margin: auto;
+}
+
+.square {
+  background-color: white;
+  float: left;
+  border: 1px solid black;
+}
+
+.square_c {
   background-color: black;
-  border:1px solid white;
-  
 }
-.act{
-	background-color: red;
-}
-.act2{
-	background-color: blue;
-}
-.nsqr {
-	clear: both;
+
+.new-row {
+  clear: both;
 }
