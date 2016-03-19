@@ -1,22 +1,20 @@
+var makeGrid = function(){
+    $('#gridContainer').html("");
 
-  var start = function(){
-    $('#Container').html("");
+    var input = prompt("Enter a number between 1 and 100 for the dimensions of your grid");
 
-    var input = prompt("choose between 1 and 100 ");
-
-      var Size = $('#Container').width()/input - 2;
+      var squareSize = $('#gridContainer').width()/input - 2;
 
       for(var i = 1; i <= input; i++){
         for(var j = 1; j <= input; j++){
-          $('#Container').append('<div class="square"></div>');
+          $('#gridContainer').append('<div class="square"></div>');
         };
       }
-      $('.square').css('width',Size);
-      $('.square').css('height',Size);
+      $('.square').css('width',squareSize);
+      $('.square').css('height',squareSize);
 
       $('.square').mouseenter(function(){
-            $(this).addClass('square_c');
+            $(this).addClass('square-change');
 
       });
 }
-
