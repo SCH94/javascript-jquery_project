@@ -5,7 +5,7 @@ header{
 }
 #btn{
 	margin: auto;
-	width: 900px;
+	width: 960px;
 	text-align: center;
 }
 button {
@@ -14,7 +14,7 @@ button {
 }
 #cont{
     overflow: auto;
-	width:980px;
+	width:960px;
 	margin:auto;
 	  }
 .sqr{
