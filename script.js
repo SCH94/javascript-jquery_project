@@ -1,5 +1,5 @@
 
-  var makeGrid = function(){
+  var start = function(){
     $('#Container').html("");
 
     var input = prompt("choose between 1 and 100 ");
