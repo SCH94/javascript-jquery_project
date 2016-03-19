@@ -1,0 +1,26 @@
+header{
+  position:static;
+  text-align:center;
+  font-style:italic;
+}
+#btn{
+	margin: auto;
+	width: 900px;
+	text-align: center;
+}
+#cont{
+    overflow: auto;
+	width:980px;
+	margin:auto;
+	  }
+.sqr{
+  background-color: black;
+  border:1px solid white;
+  
+}
+.act{
+	background-color: red;
+}
+.nsqr {
+	clear: both;
+}
