@@ -3,7 +3,7 @@ $('#cont').html("");
 var input = prompt('Type Number of squares');
 
 var sqrs = $('#cont').width()/input - 2; 
- 
+if (input >= 1 && input <= 128){ 
 for(var i=1;i<=input,i++){
 	for(var j =1;j<=input;j++){
 		$('#cont').append("<div class='sqr'></div>");
@@ -20,6 +20,6 @@ $('.sqr').hover(function(){
 	break;
 	}
 	});
-
+}
 
 };
