@@ -1,9 +1,9 @@
 var start = function(option){
 	$('#cont').html("");
 
-	var input = prompt('Type an integer between 1 and 128');
+	var input = prompt('Type square 1 and 100');
 
-	if (input >= 1 && input <= 128){	// Check for non-ridiculous input
+	if (input >= 1 && input <= 100){	// Check for non-ridiculous input
 		var sqr_size = $('#cont').width()/input - 2;	// The -2 accounts for border size
 
 		for(var i = 1; i <= input; i++){
@@ -29,6 +29,6 @@ var start = function(option){
 		});
 	}
 	else{
-		alert('Plz,Dont Leave.');
+		window.alert('Plz,Dont Leave.');
 	}
 }
