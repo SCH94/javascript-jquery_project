@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var start = function(option){
 	$('#cont').html("");
 
@@ -32,3 +33,4 @@ var start = function(option){
 		window.alert('Plz,Dont Leave.');
 	}
 }
+});
