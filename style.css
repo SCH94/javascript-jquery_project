@@ -20,8 +20,17 @@ button {
   border: 1px solid black;
 }
 
-.square_change {
+.black {
   background-color: black;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
 }
 
 .new_row {
